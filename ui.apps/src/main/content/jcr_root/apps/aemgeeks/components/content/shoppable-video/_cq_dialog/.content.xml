@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Properties"
+    sling:resourceType="cq/gui/components/authoring/dialog">
+    <items jcr:primaryType="cq:Panel">
+        <!-- Video Upload Field -->
+        <videoUpload
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="cq/gui/components/authoring/dialog/fileupload"
+                fieldLabel="Video Upload"
+                name="./videoFile"
+                allowBlank="false"
+                description="Upload a video file (MP4 format)"
+                mimeTypes="[video/mp4]"
+                fileName="videoFile"
+        />
+
+        <!-- Shoppable Media Multifield -->
+        <shoppableMedia
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="cq/gui/components/authoring/dialog/multifield"
+                fieldLabel="Shoppable Media"
+                name="./shoppableMedia">
+
+            <!-- Shoppable Media Item Fields -->
+            <field jcr:primaryType="nt:unstructured"
+                   sling:resourceType="cq/gui/components/authoring/dialog/panel"
+                   title="Shoppable Media Item"
+                   collapsible="true"
+                   bodyPadding="10">
+                <items jcr:primaryType="cq:Panel">
+                    <!-- Product Link Field -->
+                    <productLink
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="cq/gui/components/authoring/dialog/textfield"
+                            fieldLabel="Product Link"
+                            name="./productLink"
+                            description="Enter the URL of the product page" />
+
+                    <!-- Timecode Field -->
+                    <timecode
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="cq/gui/components/authoring/dialog/textfield"
+                            fieldLabel="Timecode (in seconds)"
+                            name="./timecode"
+                            description="Enter the timecode in seconds where the product appears" />
+                </items>
+            </field>
+        </shoppableMedia>
+    </items>
+</jcr:root>

@@ -1,0 +1,20 @@
+<div class="shoppable-video">
+    <!-- Adapt the model in HTL -->
+    <!-- Adapt the resource to ShoppableVideoModel -->
+    <sly data-sly-use.model="com.aem.geeks.core.models.ShoppableVideoModel" />
+
+    <!-- Use videoFile from the Sling Model -->
+    <video controls id="videoElement">
+        <source src="${model.videoFile @ context='uri'}" type="video/mp4" />
+        Your browser does not support the video tag.
+    </video>
+
+    <!-- Render shoppable media data -->
+    <div id="shoppable-media" class="shoppable-media">
+        <sly data-sly-list.media="${model.shoppableMedia}">
+            <div class="media-item" data-timecode="${media.timecode}">
+                <a href="${media.productLink}" class="shoppable-link">Shop Now</a>
+            </div>
+        </sly>
+    </div>
+</div>

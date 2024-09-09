@@ -65,6 +65,7 @@
 /Users/jaganathpanda/code_base/AEM CODE/jagan-aem/core/src/main/java/com/aem/geeks/core/services/impl/OSGiFactoryConfigImpl.java
 /Users/jaganathpanda/code_base/AEM CODE/jagan-aem/core/src/main/java/com/aem/geeks/core/models/HelloWorldModel.java
 /Users/jaganathpanda/code_base/AEM CODE/jagan-aem/core/src/main/java/com/aem/geeks/core/config/SchedulerConfiguration.java
+/Users/jaganathpanda/code_base/AEM CODE/jagan-aem/core/src/main/java/com/aem/geeks/core/models/ShoppableVideoModel.java
 /Users/jaganathpanda/code_base/AEM CODE/jagan-aem/core/src/main/java/com/aem/geeks/core/models/CAConfig.java
 /Users/jaganathpanda/code_base/AEM CODE/jagan-aem/core/src/main/java/com/aem/geeks/core/services/impl/DemoServiceBImpl.java
 /Users/jaganathpanda/code_base/AEM CODE/jagan-aem/core/src/main/java/com/aem/geeks/core/schedulers/GeeksScheduler.java

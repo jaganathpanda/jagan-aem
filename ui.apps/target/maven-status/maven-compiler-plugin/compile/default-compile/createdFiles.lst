@@ -18,6 +18,7 @@ org/apache/sling/scripting/sightly/apps/aemgeeks/components/structure/home/foote
 org/apache/sling/scripting/sightly/apps/aemgeeks/components/structure/page/customfooterlibs_html.class
 org/apache/sling/scripting/sightly/apps/aemgeeks/components/global/navigation/navigation_html.class
 org/apache/sling/scripting/sightly/apps/aemgeeks/components/helloworld/helloworld_html.class
+org/apache/sling/scripting/sightly/apps/aemgeeks/components/content/shoppable__002d__video/shoppable__002d__video_html.class
 org/apache/sling/scripting/sightly/apps/aemgeeks/components/global/footer/footer_html.class
 org/apache/sling/scripting/sightly/apps/aemgeeks/components/content/osgiconfigdemo/osgiconfigdemo_html.class
 org/apache/sling/scripting/sightly/apps/aemgeeks/components/structure/page/head_html$1.class

@@ -4,7 +4,7 @@ Bundle-Description: Bundles for Integration Tests for AEM GEEKS
 Bundle-ManifestVersion: 2
 Bundle-Name: AEM GEEKS - Integration Tests Bundles
 Bundle-SymbolicName: aemgeeks.it.tests
-Bundle-Version: 1.0.0.20240907184811737
+Bundle-Version: 1.0.0.20240908183339293
 Export-Package: com.aem.geeks.it.tests;version="1.0";uses:="org.apache
  .sling.junit.annotations,org.junit,org.junit.runner"
 Import-Package: com.aem.geeks.core.models;version="[1.0,2)",org.apache

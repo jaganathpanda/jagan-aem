@@ -126,10 +126,11 @@ Service-Component: OSGI-INF/com.aem.geeks.core.exporter.GeeksXmlExport
  wProcess.xml,OSGI-INF/com.aem.geeks.core.workflows.GeeksWorkflowStep.
  xml
 Sling-Model-Classes: com.aem.geeks.core.models.HelloWorldModel,com.aem
- .geeks.core.models.impl.AuthorBooksImpl,com.aem.geeks.core.models.imp
- l.AuthorImpl,com.aem.geeks.core.models.impl.CAConfigImpl,com.aem.geek
- s.core.models.impl.ComponentInfoImpl,com.aem.geeks.core.models.impl.M
- ultiExporterImpl,com.aem.geeks.core.models.impl.OSGiConfigDemoImpl,co
- m.aem.geeks.core.models.impl.ServiceDemoImpl,com.aem.geeks.core.model
- s.impl.UserInfoImpl,com.aem.geeks.core.models.impl.XmlExporterImpl
+ .geeks.core.models.ShoppableVideoModel,com.aem.geeks.core.models.impl
+ .AuthorBooksImpl,com.aem.geeks.core.models.impl.AuthorImpl,com.aem.ge
+ eks.core.models.impl.CAConfigImpl,com.aem.geeks.core.models.impl.Comp
+ onentInfoImpl,com.aem.geeks.core.models.impl.MultiExporterImpl,com.ae
+ m.geeks.core.models.impl.OSGiConfigDemoImpl,com.aem.geeks.core.models
+ .impl.ServiceDemoImpl,com.aem.geeks.core.models.impl.UserInfoImpl,com
+ .aem.geeks.core.models.impl.XmlExporterImpl
 

@@ -25,6 +25,7 @@ com/aem/geeks/core/models/CAConfig.class
 com/aem/geeks/core/listeners/GeeksJobConsumer.class
 com/aem/geeks/core/listeners/OSGiEventHandler.class
 com/aem/geeks/core/services/ComponentsInfoService.class
+com/aem/geeks/core/models/ShoppableVideoModel.class
 com/aem/geeks/core/services/OSGiConfigModule.class
 com/aem/geeks/core/config/GeeksOSGiFactoryConfig.class
 com/aem/geeks/core/models/impl/ComponentInfoImpl.class
